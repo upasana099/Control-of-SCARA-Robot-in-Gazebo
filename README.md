@@ -1,1 +1,1 @@
-# Control-of-SCARA-Robot-in-Gazebo
+# Control of SCARA Robot in Gazebo
