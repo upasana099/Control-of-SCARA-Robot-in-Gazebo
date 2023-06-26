@@ -15,7 +15,23 @@ Implemented an inverse kinematics node (a separate node) that has a service clie
 
 ## 2. Controlling the robot joints
 
-PD controller was programmed which would read the joint values, receive reference joint values through service and publish joint efforts back to the SCARA robot.
+Implemented PD controller which would read the joint values, receive reference joint values through service and publish joint efforts back to the SCARA robot.For the joint efforts, Derivative gain (Kd) and Proportional gain(Kp) have been tuned to
+get optimal control function with fast convergence and minimal overshoot.
+Control input :
+U= -Kp*e - Kd*e_dot
+where,
+Kp=Proportional Gain
+Kd= Derivative Gain
+e=(Xref-X)
+e_dot=e(current_time) - e(previous_time) / (current_time - previous_time)
+
+
+![2 1](https://github.com/upasana099/Control-of-SCARA-Robot-in-Gazebo/assets/89516193/67776e74-1f8b-40c8-8c6a-0582ec287a9d)
+
+
+
+![2 2](https://github.com/upasana099/Control-of-SCARA-Robot-in-Gazebo/assets/89516193/14e52aa5-1bd3-4ea5-8a3c-47ee0edab52d)
+
 
 
 ## 3. Moving the robot on a linear path
