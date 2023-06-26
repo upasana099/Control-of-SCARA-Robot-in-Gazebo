@@ -33,8 +33,38 @@ PD controller was programmed which would read the joint values, receive referenc
 * In order to add a velocity controller, added a reference velocity which was compared with the desired velocity and the cumulative error was found. 
 *	For tuning, kept increasing the value of Kp (proportional gain) while keeping one of the joints constant.
 
+### 3.3 Simulation Videos
 
-![3 2](https://github.com/upasana099/Control-of-SCARA-Robot-in-Gazebo/assets/89516193/771f8674-4de8-49bc-97d2-e0f2fe77c018)
+-	In this video the velocity in the x and y direction is 0,whereas in the z direction the velocity given is 1 unit.
+
+
+
+
+https://github.com/upasana099/Control-of-SCARA-Robot-in-Gazebo/assets/89516193/91d1203a-1170-4d9e-ac3a-53fac34bb112
+
+
+
+
+-	In this video the velocity in the x direction is 0, whereas in the y and z direction the velocity given is 1 unit.
+
+
+
+
+https://github.com/upasana099/Control-of-SCARA-Robot-in-Gazebo/assets/89516193/34a512b0-8572-4bc3-ad1e-1d97faa61dc5
+
+
+
+
+
+
+-	In this video the velocity in all the directions is 1 unit. 
+
+
+
+
+https://github.com/upasana099/Control-of-SCARA-Robot-in-Gazebo/assets/89516193/e01b8df6-efea-469a-8e51-a05f90d26f6a
+
+
 
 
 
