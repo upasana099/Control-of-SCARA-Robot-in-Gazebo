@@ -2,14 +2,25 @@
 
 
 ## 1.1  Create the robot
+
 ## 1.2 Forward Kinematics
 Implemented a forward kinematics node that
 * Subscribes to the joint values topic and reads them from the gazebo simulator
 * Calculate the end effector pose
-* publishes the pose as a ROS topic 
+* publishes the pose as a ROS topic
+
+
+![part1](https://github.com/upasana099/Control-of-SCARA-Robot-in-Gazebo/assets/89516193/5dec3840-bc73-4abf-8712-a3e224a2837e)
+
+
+
+
 ## 1.3 Inverse Kinematics 
 
 Implemented an inverse kinematics node (a separate node) that has a service client that takes a (desired) pose of the end effector from the user and returns joint positions as a response.
+
+
+![004](https://github.com/upasana099/Control-of-SCARA-Robot-in-Gazebo/assets/89516193/bd9b03ce-69b5-4e43-b473-997b77ef86c0)
 
 
 
