@@ -62,7 +62,7 @@ e_dot=e(current_time) - e(previous_time) / (current_time - previous_time)
 
 ### 3.3 Simulation Videos
 
--	In this video the velocity in the x and y direction is 0,whereas in the z direction the velocity given is 1 unit.
+-	In this video, the velocity in the x and y direction is 0, whereas in the z direction, the velocity given is 1 unit.
 
 
 
@@ -72,7 +72,7 @@ https://github.com/upasana099/Control-of-SCARA-Robot-in-Gazebo/assets/89516193/9
 
 
 
--	In this video the velocity in the x direction is 0, whereas in the y and z direction the velocity given is 1 unit.
+-	In this video the velocity in the x direction is 0, whereas in the y and z directions the velocity given is 1 unit.
 
 
 
